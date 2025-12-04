@@ -1,8 +1,8 @@
-# ⚡️ ultimate-compressor
+# ⚡️ ultimate-file-tool
 
-A sleek and modern desktop application built with **Electron JS** that allows you to compress multiples files effortlessly. Designed to be lightweight, fast, and cross-platform.
+A sleek and modern desktop application built with **Electron JS** that allows you to compress multiples files effortlessly, convert them, dowload a file from YouTube and many other little things ! Designed to be lightweight, fast, and cross-platform.
 
-Perfect for anyone who wants a simple drag-and-drop interface for file compression without the hassle of command-line tools.
+Perfect for anyone who wants a simple drag-and-drop interface for a lot of file stuff.
 
 ---
 
@@ -24,7 +24,7 @@ This project requires **Node.js** and **npm** installed on your system.
 1.  **Clone the repository:**
 
     ```bash
-    git clone https://github.com/GLOXIOU/ultimate-compressor
+    git clone https://github.com/GLOXIOU/ultimate-file-tool
     ```
 
 2.  **Install dependencies:**
@@ -43,11 +43,11 @@ This project requires **Node.js** and **npm** installed on your system.
 
 ## Usage
 
-Once the application is running, you can compress files easily:
+Once the application is running, you can do wathever you want with your files easily:
 
-1.  **Select a file:** Click the "Select File" button or drag a file into the window.  
-2.  **Compress:** Click "Compress" to create your bew file.  
-3.  **Enjoy:** Your file is now compressed and ready to use!
+1.  **Compress:** Click on the action you want to do.  
+2.  **Select a file:** Click the "Select File" button or drag a file into the window.  
+3.  **Enjoy:** Your file is now modified and ready to use!
 
 ---
 
