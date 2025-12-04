@@ -72,10 +72,4 @@ document.addEventListener("DOMContentLoaded", () => {
     }
     particlesInit();
     baseInit();
-    document.getElementById('openLink').addEventListener('click', (e) => {
-        e.preventDefault();
-        const link = e.target.closest('a');
-        if (!link) return;
-        window.electronAPI.openExternal(link.href);
-    });
 });
