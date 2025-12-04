@@ -7,10 +7,13 @@ function createWindow() {
     height: 540,
     resizable: true,
     webPreferences: {
-      preload: path.join(__dirname, 'preload.js')
-    }
+      preload: path.join(__dirname, 'preload.js'),
+      contextIsolation: true,
+      nodeIntegration: false
+    },
   });
-
+  
+  win.webContents.openDevTools();
   win.setMenu(null);
   win.loadFile('src/index.html');
 }
