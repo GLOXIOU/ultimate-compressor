@@ -59,5 +59,6 @@ You can package your app into an installable executable using **electron-builder
 npm run build
 
 ## .exe App
+```
 
 The .exe will be generate in a few update
